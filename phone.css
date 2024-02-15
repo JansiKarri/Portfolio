@@ -1,0 +1,124 @@
+.navi{
+    display: flex;
+    flex-direction: column;
+}
+
+#certification .certification-container{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+#certification .certification-container .cer1{
+    margin-bottom: 40px;
+    width: 43%;
+}
+#certification .certification-container .cer2{
+    margin-bottom: 40px;
+    width: 46%;
+}
+#certification .certification-container .cer3{
+    margin-bottom: 0px;
+    width: 43%;
+}
+#certification .certification-container .cer4{
+    margin-bottom: 40px;
+    width: 43%;
+}
+#certification .certification-container .cer5{
+    margin-bottom: 40px;
+    width: 43%;
+}
+#certification .certification-container .cer6{
+    margin-bottom: 40px;
+    width: 43%;
+}
+
+
+/* .hobbies-container{
+    display: flex;
+    flex-direction: column;
+}
+.hobbies-container .hobbies{
+    margin-bottom: 30px;
+    padding: 1% 2%;
+   
+} */
+
+#education .card-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    
+    
+}
+#education .card-container .card{
+    margin-bottom: 50px;
+}
+
+/* .tools-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.tools{
+    margin-bottom: 4%;
+} */
+
+#projects .project-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+#projects .project-container .proj1{
+    margin-bottom: 50px;
+}
+#projects .project-container .proj2{
+    margin-bottom: 50px;
+}
+#services .service-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+#servicess .service-container .service1{
+    margin-bottom: 50px;
+}
+#services .service-container .service2{
+    margin-bottom: 50px;
+}
+
+.aws {
+    animation: loaded 5s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    text-align:right;
+    width: 30%;
+    padding:1px 10px 1px 0px;
+    
+    
+    }
+    .aws-container:hover{
+    width:80%;
+    text-align: center;
+    transition: 1s;
+    background-color: rgb(161, 159, 159);
+    }
+    @keyframes loaded {
+    0% { width: 50; }
+    100% { width: 50%; }
+    }
+
+    .proj1{
+        width: 43%;
+    }
+    .proj2{
+        width: 46%;
+    }
+    .proj3{
+        width: 43%;
+    }
